@@ -6,3 +6,29 @@
   font-family: "Dosis", sans-serif;
   list-style: none;
 }
+
+/* Root */
+:root {
+  --escuro: rgba(18, 18, 18, 1);
+  --laranja: rgba(242, 142, 19, 1);
+}
+
+/* Background para desktop */
+/* Body */
+
+body {
+  background: var(--escuro);
+}
+
+/* Background para mobile */
+
+@media screen and (min-width: 360px) {
+  body {
+    background: rgba(242, 142, 19);
+    background-image: linear-gradient(
+      132deg,
+      rgba(242, 142, 19, 1) 0%,
+      rgba(242, 142, 19, 0.81) 100%
+    );
+  }
+}
