@@ -1,0 +1,10 @@
+/* Root */
+:root {
+  --escuro: rgba(18, 18, 18, 1);
+  --laranja: rgba(242, 142, 19, 1);
+}
+
+/* Cor de background */
+.background {
+  background-color: var(--escuro);
+}
